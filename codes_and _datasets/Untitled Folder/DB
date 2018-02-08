@@ -1,0 +1,20 @@
+function Clusters = DB(X, min_pts, radius)
+
+    [N m] = size(X);
+    cluster_count = 0;
+    idx = zeros(N,1); 
+    
+    visited = false(N,1);
+    noise = false(N,1);
+    
+    for i=1:n
+        if ~visited(i)
+            visited(i) = true;
+            
+            nhbrs =  neighbour(X, X(i,:), radius);
+            if(size(nhbrs,1)<min_pts)
+                noise(i) = true;
+            else
+                Cluster_count = Cluster_count + 1;
+                ExpandCluster(i, nhbrs, )
+    

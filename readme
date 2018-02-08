@@ -1,0 +1,14 @@
+Supervisor : Dr. Koel Das, Assistant Professor.
+
+Department of Mathematics and Statistics, IISER Kolkata.
+
+Abstract : A seminar course was carried out on the topic of clustering.
+It involved the mathematical derivation of various clustering algorithms
+such as K- Means, Hierarchical Clustering and DBSCAN. I also studied
+about the Expectation Maximization algorithm. I created various types
+of synthetic datasets and then implemented the algorithms. I found that
+each particular algorithm was able to cluster only the particular types
+of datasets and this happened because of certain properties of each algo-
+rithms. I also studied about the Gaussian Mixture Models and found the
+parameters of the model using Expectation Maximization algorithm. All
+the required codes were written in MATLAB.
